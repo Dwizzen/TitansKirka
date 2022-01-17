@@ -377,3 +377,19 @@ hr[data-v-50a88834],
 .nickname[data-v-b427fee8]{
     color: var(--accentColorHover);
 }
+body:after {
+    border-radius: 200px;
+    content: " ";
+    background: var(--accentColor);
+    border: 1px solid black;
+    background-size: var(--dotSize), var(--dotSize);
+    width: var(--dotSize);
+    height: var(--dotSize);
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: translate(-50%, 50%);
+    z-index: 999 !important;
+}
